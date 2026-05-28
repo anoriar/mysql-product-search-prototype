@@ -1,0 +1,1377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<yml_catalog date="2026-05-27 23:40">
+  <shop>
+    <name>Надежная Обувь</name>
+    <company>ООО "Надежная Обувь"</company>
+    <url>http://www.надежнаятехника.рф</url>
+    <offers>
+      <offer id="000001" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/кроссовки-ultraboost-m100</url>
+        <price>3490.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/1.JPG</picture>
+        <name>Кроссовки Adidas Ultraboost M100</name>
+        <description>Легкая пара кроссовок мягко садится по стопе и не перегружает ногу в течение дня. Упругая подошва с амортизацией сглаживает шаг на асфальте.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000001</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">36</param>
+      </offer>
+      <offer id="000002" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/кеды-574-m101</url>
+        <price>3780.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/2.JPG</picture>
+        <name>Кеды New Balance 574 M101</name>
+        <description>Эти ботинки уверенно фиксируют пятку и поддерживают свод стопы при долгой ходьбе. Рельефная подошва дает цепкий контакт с мокрой плиткой.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000002</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000003" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/сланцы-air-max-m102</url>
+        <price>3170.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/3.JPG</picture>
+        <name>Сланцы Nike Air Max M102</name>
+        <description>Кеды с дышащей подкладкой помогают сохранять комфорт даже в теплом помещении. Гибкая подошва повторяет естественный перекат стопы.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000003</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000004" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/лоферы-suede-m103</url>
+        <price>4360.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/4.JPG</picture>
+        <name>Лоферы Puma Suede M103</name>
+        <description>Пара лоферов выполнена на удобной колодке, поэтому обувь не давит в подъеме. Мягкая стелька добавляет амортизацию на каждом шаге.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000004</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">39</param>
+      </offer>
+      <offer id="000005" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/ботинки-classic-leather-m104</url>
+        <price>6450.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/5.JPG</picture>
+        <name>Ботинки Reebok Classic Leather M104</name>
+        <description>Кроссовки для города получили износостойкую подошву и уверенное сцепление на гладких покрытиях. Внутренняя подкладка приятна к стопе без лишнего трения.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000005</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000006" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/сандалии-gel-lyte-m105</url>
+        <price>4940.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/6.JPG</picture>
+        <name>Сандалии ASICS Gel-Lyte M105</name>
+        <description>Ботильоны плотно охватывают ногу и держат форму после активной носки. Подошва с выраженным протектором улучшает grip на рыхлой поверхности.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000006</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000007" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/мокасины-go-walk-m106</url>
+        <price>5230.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/7.JPG</picture>
+        <name>Мокасины Skechers Go Walk M106</name>
+        <description>Эта пара с анатомической колодкой помогает стопе оставаться в правильном положении. Амортизирующий слой в пятке снижает ударную нагрузку.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000007</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">42</param>
+      </offer>
+      <offer id="000008" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/челси-old-skool-m107</url>
+        <price>7320.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/8.JPG</picture>
+        <name>Челси Vans Old Skool M107</name>
+        <description>Повседневные кроссовки из легких материалов хорошо вентилируются и не перегревают стопу. Подошва устойчива к истиранию и сохраняет гибкость.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000008</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000009" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/сникеры-chuck-taylor-m108</url>
+        <price>5810.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/9.JPG</picture>
+        <name>Сникеры Converse Chuck Taylor M108</name>
+        <description>Туфли аккуратно сидят по ноге благодаря продуманной полноте и мягкому канту. Подкладка дышит, а тонкая амортизация делает шаг плавнее.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000009</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000010" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/сабо-classic-boat-m109</url>
+        <price>5200.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/10.JPG</picture>
+        <name>Сабо Timberland Classic Boat M109</name>
+        <description>Пара спортивных кед сочетает легкий верх и цепкую резиновую подошву. Внутри - комфортная посадка для стопы без ощущения жесткости.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000010</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">45</param>
+      </offer>
+      <offer id="000011" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/кроссовки-soft-7-m110</url>
+        <price>6390.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/11.JPG</picture>
+        <name>Кроссовки Ecco Soft 7 M110</name>
+        <description>Высокие кроссовки дают дополнительную поддержку голеностопу и уверенную фиксацию стопы. Промежуточная подошва мягко гасит вибрации при ходьбе.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000011</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000012" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/кеды-wallabee-m111</url>
+        <price>6680.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/12.JPG</picture>
+        <name>Кеды Clarks Wallabee M111</name>
+        <description>Базовые ботинки на каждый день получили прочную колодку и стабильную платформу. Протектор подошвы улучшает сцепление на влажной дороге.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000012</param>
+        <param name="Стиль">городской</param>
+        <param name="Технология">подошва FlexGrip</param>
+      </offer>
+      <offer id="000013" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/сланцы-superstar-m112</url>
+        <price>6070.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/13.JPG</picture>
+        <name>Сланцы Adidas Superstar M112</name>
+        <description>Легкая пара с текстильной подкладкой дарит приятный микроклимат для ноги. Эластичная подошва помогает стопе двигаться естественно.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000013</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">37</param>
+      </offer>
+      <offer id="000014" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/лоферы-327-m113</url>
+        <price>7260.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/14.JPG</picture>
+        <name>Лоферы New Balance 327 M113</name>
+        <description>Кроссовки с усиленной пяткой снижают усталость даже после длинного маршрута. Амортизация в передней части смягчает отталкивание.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000014</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000015" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/ботинки-dunk-m114</url>
+        <price>9350.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/15.JPG</picture>
+        <name>Ботинки Nike Dunk M114</name>
+        <description>Эти полуботинки отличаются мягкой внутренней отделкой и аккуратной посадкой по стопе. Подошва не скользит и уверенно держит траекторию шага.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000015</param>
+        <param name="Стиль">кэжуал</param>
+        <param name="Технология">влагостойкая обработка</param>
+      </offer>
+      <offer id="000016" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/сандалии-rs-x-m115</url>
+        <price>7840.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/16.JPG</picture>
+        <name>Сандалии Puma RS-X M115</name>
+        <description>Пара для активного дня: легкий вес, хорошая вентиляция и стабильная колодка. Упругая подошва добавляет комфорта на твердом покрытии.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000016</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">40</param>
+      </offer>
+      <offer id="000017" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/мокасины-club-c-m116</url>
+        <price>8130.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/17.JPG</picture>
+        <name>Мокасины Reebok Club C M116</name>
+        <description>Кеды садятся по ноге без давления и подходят для длительной прогулки. Рифление на подошве усиливает grip на городских поверхностях.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000017</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000018" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/челси-gel-kayano-m117</url>
+        <price>10220.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/18.JPG</picture>
+        <name>Челси ASICS Gel-Kayano M117</name>
+        <description>Ботинки с плотной шнуровкой фиксируют стопу и уменьшают лишнее смещение внутри. Амортизирующая стелька бережет суставы при каждом шаге.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000018</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000019" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/сникеры-dlites-m118</url>
+        <price>8710.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/19.JPG</picture>
+        <name>Сникеры Skechers D'Lites M118</name>
+        <description>Лоферы на мягкой колодке комфортны с первого дня носки. Подошва гибко работает в зоне переката и не мешает движению стопы.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000019</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">43</param>
+      </offer>
+      <offer id="000020" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/сабо-authentic-m119</url>
+        <price>8100.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/20.JPG</picture>
+        <name>Сабо Vans Authentic M119</name>
+        <description>Дышащий верх и приятная подкладка делают эту пару удобной в межсезонье. Цепкая подошва уверенно ведет себя на плитке и асфальте.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000020</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000021" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/кроссовки-run-star-m120</url>
+        <price>9290.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/21.JPG</picture>
+        <name>Кроссовки Converse Run Star M120</name>
+        <description>Кроссовки рассчитаны на динамичную ходьбу: легкий корпус и пружинящая база. Пятка стабилизирована, чтобы нога не уставала к вечеру.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000021</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000022" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/кеды-cityroam-m121</url>
+        <price>9580.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/22.JPG</picture>
+        <name>Кеды Timberland CityRoam M121</name>
+        <description>Эта пара обуви мягко облегает стопу и не натирает в носочной зоне. Подошва с амортизацией смягчает контакт с твердым грунтом.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000022</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">46</param>
+      </offer>
+      <offer id="000023" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/сланцы-biom-m122</url>
+        <price>8970.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/23.JPG</picture>
+        <name>Сланцы Ecco Biom M122</name>
+        <description>Ботинки с теплой подкладкой поддерживают комфортный режим внутри обуви. Глубокий рисунок подошвы повышает сцепление на неровной дороге.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000023</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000024" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/лоферы-desert-m123</url>
+        <price>10160.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/24.JPG</picture>
+        <name>Лоферы Clarks Desert M123</name>
+        <description>Кеды с анатомическим контуром стельки помогают равномерно распределять нагрузку на стопу. Эластичная подошва делает ход легким и естественным.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000024</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000025" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/ботинки-gazelle-m124</url>
+        <price>12250.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/25.JPG</picture>
+        <name>Ботинки Adidas Gazelle M124</name>
+        <description>Городские туфли выполнены на устойчивой колодке с продуманной полнотой. Подкладка хорошо пропускает воздух, а шаг остается мягким.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000025</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">38</param>
+      </offer>
+      <offer id="000026" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/сандалии-990-m125</url>
+        <price>3490.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/26.JPG</picture>
+        <name>Сандалии New Balance 990 M125</name>
+        <description>Пара спортивного формата держит ногу надежно благодаря удобной системе шнуровки. Подошва цепляется за поверхность и сохраняет гибкость в движении.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000026</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000027" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/мокасины-pegasus-m126</url>
+        <price>3780.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/27.JPG</picture>
+        <name>Мокасины Nike Pegasus M126</name>
+        <description>Модель с мягким воротом бережно фиксирует щиколотку без давления. Амортизирующий слой в подошве снижает утомление стопы.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000027</param>
+        <param name="Стиль">городской</param>
+        <param name="Технология">подошва FlexGrip</param>
+      </offer>
+      <offer id="000028" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/челси-future-rider-m127</url>
+        <price>5870.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/28.JPG</picture>
+        <name>Челси Puma Future Rider M127</name>
+        <description>Эти ботинки созданы для повседневных маршрутов и уверенной посадки по ноге. Прочный протектор дает стабильный grip в дождливую погоду.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000028</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">41</param>
+      </offer>
+      <offer id="000029" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/сникеры-nano-m128</url>
+        <price>4360.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/29.JPG</picture>
+        <name>Сникеры Reebok Nano M128</name>
+        <description>Легкие кроссовки с сетчатой подкладкой поддерживают хорошую breathability в течение дня. Подошва помогает стопе плавно перекатываться.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000029</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000030" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/сабо-novablast-m129</url>
+        <price>3750.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/30.JPG</picture>
+        <name>Сабо ASICS Novablast M129</name>
+        <description>Пара лоферов сочетает аккуратный силуэт и комфортную колодку для длительной носки. Резиновая подошва уверенно держит сцепление на гладком полу.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000030</param>
+        <param name="Стиль">кэжуал</param>
+        <param name="Технология">влагостойкая обработка</param>
+      </offer>
+      <offer id="000031" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/кроссовки-arch-fit-m130</url>
+        <price>4940.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/31.JPG</picture>
+        <name>Кроссовки Skechers Arch Fit M130</name>
+        <description>Кеды с усиленной носочной частью дольше сохраняют форму при активной носке. Мягкая стелька и амортизация в пятке делают шаг спокойнее.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000031</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">44</param>
+      </offer>
+      <offer id="000032" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/кеды-sk8-hi-m131</url>
+        <price>5230.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/32.JPG</picture>
+        <name>Кеды Vans Sk8-Hi M131</name>
+        <description>Ботинки с плотным задником стабилизируют стопу и улучшают контроль движения. Подошва устойчива к скольжению на влажной поверхности.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000032</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000033" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/сланцы-one-star-m132</url>
+        <price>4620.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/33.JPG</picture>
+        <name>Сланцы Converse One Star M132</name>
+        <description>Пара на каждый день приятно садится по ноге и не требует долгой разноски. Гибкая база поддерживает естественную работу стопы.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000033</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000034" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/лоферы-seneca-bay-m133</url>
+        <price>5810.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/34.JPG</picture>
+        <name>Лоферы Timberland Seneca Bay M133</name>
+        <description>Кроссовки с облегченной конструкцией подходят для длительных прогулок по городу. Пружинящая подошва и мягкая lining добавляют комфорта.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000034</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">36</param>
+      </offer>
+      <offer id="000035" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/ботинки-street-lite-m134</url>
+        <price>7900.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/35.JPG</picture>
+        <name>Ботинки Ecco Street Lite M134</name>
+        <description>Эти туфли держат аккуратную посадку даже при активном ритме дня. Амортизирующая стелька снижает давление на переднюю часть стопы.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000035</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000036" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/сандалии-un-costa-m135</url>
+        <price>6390.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/36.JPG</picture>
+        <name>Сандалии Clarks Un Costa M135</name>
+        <description>Ботильоны получили удобную колодку и надежную фиксацию пятки. Рельефная подошва улучшает сцепление и добавляет устойчивости шагу.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000036</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000037" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/мокасины-forum-m136</url>
+        <price>6680.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/37.JPG</picture>
+        <name>Мокасины Adidas Forum M136</name>
+        <description>Спортивная пара с дышащим верхом помогает стопе оставаться в сухом комфорте. Упругая подошва мягко отрабатывает удар при приземлении.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000037</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">39</param>
+      </offer>
+      <offer id="000038" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/челси-2002r-m137</url>
+        <price>8770.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/38.JPG</picture>
+        <name>Челси New Balance 2002R M137</name>
+        <description>Кеды с тонкой, но прочной подкладкой комфортны в помещении и на улице. Протектор подошвы обеспечивает уверенный grip на разных покрытиях.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000038</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000039" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/сникеры-blazer-m138</url>
+        <price>7260.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/39.JPG</picture>
+        <name>Сникеры Nike Blazer M138</name>
+        <description>Ботинки на анатомической колодке уменьшают усталость ног к концу дня. Амортизация в зоне пятки делает ход более мягким.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000039</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000040" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/сабо-cali-m139</url>
+        <price>6650.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/40.JPG</picture>
+        <name>Сабо Puma Cali M139</name>
+        <description>Эта пара хорошо держит форму и бережно фиксирует стопу в движении. Подошва гибкая в носке и устойчивая в опорной зоне.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000040</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">42</param>
+      </offer>
+      <offer id="000041" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/кроссовки-zig-m140</url>
+        <price>7840.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/41.JPG</picture>
+        <name>Кроссовки Reebok Zig M140</name>
+        <description>Лоферы с мягкой внутренней отделкой приятно ощущаются даже на босую ногу. Цепкая подошва помогает уверенно идти по гладкому покрытию.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000041</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000042" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/кеды-gt-2000-m141</url>
+        <price>8130.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/42.JPG</picture>
+        <name>Кеды ASICS GT-2000 M141</name>
+        <description>Кроссовки подходят для ежедневных дистанций благодаря легкому весу и стабильной посадке. Подкладка дышит, а амортизация сохраняет комфорт шага.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000042</param>
+        <param name="Стиль">городской</param>
+        <param name="Технология">подошва FlexGrip</param>
+      </offer>
+      <offer id="000043" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/сланцы-uno-m142</url>
+        <price>7520.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/43.JPG</picture>
+        <name>Сланцы Skechers Uno M142</name>
+        <description>Пара ботинок с широким основанием добавляет устойчивости на неровной дороге. Рифленая подошва улучшает сцепление в межсезонье.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000043</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">45</param>
+      </offer>
+      <offer id="000044" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/лоферы-era-m143</url>
+        <price>8710.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/44.JPG</picture>
+        <name>Лоферы Vans Era M143</name>
+        <description>Кеды аккуратно облегают стопу и не сдавливают пальцы при ходьбе. Эластичная подошва помогает ноге двигаться свободно.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000044</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000045" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/ботинки-weapon-m144</url>
+        <price>10800.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/45.JPG</picture>
+        <name>Ботинки Converse Weapon M144</name>
+        <description>Туфли с мягким кантом и удобной колодкой подходят для долгого дня в офисе. Стелька с амортизацией снимает часть ударной нагрузки.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000045</param>
+        <param name="Стиль">кэжуал</param>
+        <param name="Технология">влагостойкая обработка</param>
+      </offer>
+      <offer id="000046" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/сандалии-killington-m145</url>
+        <price>9290.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/46.JPG</picture>
+        <name>Сандалии Timberland Killington M145</name>
+        <description>Городская пара с плотной шнуровкой надежно фиксирует ногу в динамике. Подошва с цепким рисунком повышает grip на влажном асфальте.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000046</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">37</param>
+      </offer>
+      <offer id="000047" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/мокасины-gruuv-m146</url>
+        <price>9580.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/47.JPG</picture>
+        <name>Мокасины Ecco Gruuv M146</name>
+        <description>Ботинки с текстильной lining создают комфортный микроклимат внутри. Подошва устойчива к износу и сохраняет амортизационные свойства.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000047</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000048" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/челси-bradley-m147</url>
+        <price>11670.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/48.JPG</picture>
+        <name>Челси Clarks Bradley M147</name>
+        <description>Кроссовки на гибкой платформе дают мягкий перекат стопы от пятки к носку. Дышащий верх помогает сохранять свежесть в течение дня.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000048</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000049" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/сникеры-campus-m148</url>
+        <price>10160.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/49.JPG</picture>
+        <name>Сникеры Adidas Campus M148</name>
+        <description>Эта пара отличается точной посадкой по колодке и мягким прилеганием к стопе. Протектор подошвы удерживает сцепление на гладких участках.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000049</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">40</param>
+      </offer>
+      <offer id="000050" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/сабо-9060-m149</url>
+        <price>9550.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/50.JPG</picture>
+        <name>Сабо New Balance 9060 M149</name>
+        <description>Легкие кеды комфортны для активного темпа благодаря амортизирующей стельке. Подкладка хорошо отводит тепло и поддерживает breathability.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000050</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000051" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/кроссовки-cortez-m150</url>
+        <price>3490.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/51.JPG</picture>
+        <name>Кроссовки Nike Cortez M150</name>
+        <description>Ботинки с усиленным мысом подходят для городских и загородных маршрутов. Резиновая подошва уверенно цепляется за рыхлый грунт.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000051</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000052" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/кеды-smash-m151</url>
+        <price>3780.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/52.JPG</picture>
+        <name>Кеды Puma Smash M151</name>
+        <description>Пара лоферов на удобной основе уменьшает нагрузку на стопу при длительной ходьбе. Мягкая внутренняя отделка предотвращает натирание.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000052</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">43</param>
+      </offer>
+      <offer id="000053" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/сланцы-floatride-m152</url>
+        <price>3170.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/53.JPG</picture>
+        <name>Сланцы Reebok Floatride M152</name>
+        <description>Кроссовки с поддержкой свода стопы дарят более стабильный шаг. Промежуточная подошва эффективно гасит вибрации на твердом покрытии.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000053</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000054" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/лоферы-gel-nimbus-m153</url>
+        <price>4360.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/54.JPG</picture>
+        <name>Лоферы ASICS Gel-Nimbus M153</name>
+        <description>Эти полуботинки держат ногу уверенно и не теряют форму после сезона. Рельеф на подошве улучшает grip в сырую погоду.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000054</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000055" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/ботинки-max-cushioning-m154</url>
+        <price>6450.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/55.JPG</picture>
+        <name>Ботинки Skechers Max Cushioning M154</name>
+        <description>Кеды с лаконичным дизайном приятно садятся по стопе уже с первой примерки. Гибкая подошва и мягкая подкладка добавляют комфорта.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000055</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">46</param>
+      </offer>
+      <offer id="000056" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/сандалии-slip-on-m155</url>
+        <price>4940.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/56.JPG</picture>
+        <name>Сандалии Vans Slip-On M155</name>
+        <description>Ботильоны на устойчивой колодке подходят для долгих прогулок по городу. Амортизирующий слой делает шаг плавным и менее утомительным.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000056</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000057" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/мокасины-pro-leather-m156</url>
+        <price>5230.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/57.JPG</picture>
+        <name>Мокасины Converse Pro Leather M156</name>
+        <description>Пара спортивной обуви обеспечивает хорошую вентиляцию и поддержку пятки. Цепкая подошва помогает уверенно держаться на поворотах.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000057</param>
+        <param name="Стиль">городской</param>
+        <param name="Технология">подошва FlexGrip</param>
+      </offer>
+      <offer id="000058" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/челси-union-wharf-m157</url>
+        <price>7320.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/58.JPG</picture>
+        <name>Челси Timberland Union Wharf M157</name>
+        <description>Туфли с продуманной полнотой комфортно сидят на ноге в течение дня. Стелька с мягким наполнением поддерживает стопу при ходьбе.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000058</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">38</param>
+      </offer>
+      <offer id="000059" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/сникеры-s-lite-hybrid-m158</url>
+        <price>5810.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/59.JPG</picture>
+        <name>Сникеры Ecco S Lite Hybrid M158</name>
+        <description>Кроссовки сочетают легкую конструкцию и прочную подошву для ежедневного использования. Подкладка дышит, снижая ощущение перегрева.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000059</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000060" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/сабо-craft-swift-m159</url>
+        <price>5200.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/60.JPG</picture>
+        <name>Сабо Clarks Craft Swift M159</name>
+        <description>Ботинки с высоким берцем аккуратно фиксируют голеностоп и стабилизируют ногу. Глубокий протектор подошвы повышает сцепление на скользкой поверхности.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000060</param>
+        <param name="Стиль">кэжуал</param>
+        <param name="Технология">влагостойкая обработка</param>
+      </offer>
+      <offer id="000061" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/кроссовки-ultraboost-m160</url>
+        <price>6390.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/61.JPG</picture>
+        <name>Кроссовки Adidas Ultraboost M160</name>
+        <description>Эта пара кед создана для мягкого шага и естественного переката стопы. Эластичная резина подошвы добавляет комфорта в движении.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000061</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">41</param>
+      </offer>
+      <offer id="000062" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/кеды-574-m161</url>
+        <price>6680.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/62.JPG</picture>
+        <name>Кеды New Balance 574 M161</name>
+        <description>Лоферы с анатомической колодкой снижают усталость даже после насыщенного дня. Подошва не скользит и хорошо держит опору.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000062</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000063" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/сланцы-air-max-m162</url>
+        <price>6070.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/63.JPG</picture>
+        <name>Сланцы Nike Air Max M162</name>
+        <description>Кроссовки с плотной пяткой помогают удерживать стопу в правильном положении. Встроенная амортизация смягчает удар при каждом приземлении.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000063</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000064" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/лоферы-suede-m163</url>
+        <price>7260.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/64.JPG</picture>
+        <name>Лоферы Puma Suede M163</name>
+        <description>Ботинки для повседневной носки получили мягкую lining и устойчивую платформу. Рисунок подошвы обеспечивает надежный grip на городских покрытиях.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000064</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">44</param>
+      </offer>
+      <offer id="000065" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/ботинки-classic-leather-m164</url>
+        <price>9350.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/65.JPG</picture>
+        <name>Ботинки Reebok Classic Leather M164</name>
+        <description>Пара с дышащим верхом поддерживает комфортный микроклимат для ноги. Упругая подошва помогает идти дольше без чувства тяжести.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000065</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000066" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/сандалии-gel-lyte-m165</url>
+        <price>7840.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/66.JPG</picture>
+        <name>Сандалии ASICS Gel-Lyte M165</name>
+        <description>Туфли аккуратно повторяют форму стопы и не давят в подъеме. Подкладка приятная на ощупь, а шаг остается устойчивым.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000066</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000067" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/мокасины-go-walk-m166</url>
+        <price>8130.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/67.JPG</picture>
+        <name>Мокасины Skechers Go Walk M166</name>
+        <description>Кеды с усиленной пяткой и мягким язычком дают надежную фиксацию. Подошва гибкая в движении и цепкая на мокром асфальте.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000067</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">36</param>
+      </offer>
+      <offer id="000068" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/челси-old-skool-m167</url>
+        <price>10220.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/68.JPG</picture>
+        <name>Челси Vans Old Skool M167</name>
+        <description>Ботильоны разработаны на удобной колодке для стабильной посадки по ноге. Амортизирующая стелька поддерживает комфорт в течение дня.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000068</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000069" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/сникеры-chuck-taylor-m168</url>
+        <price>8710.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/69.JPG</picture>
+        <name>Сникеры Converse Chuck Taylor M168</name>
+        <description>Спортивная пара с продуманной вентиляцией сохраняет свежесть даже в активном темпе. Резиновая подошва добавляет уверенности на поворотах.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000069</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000070" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/сабо-classic-boat-m169</url>
+        <price>8100.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/70.JPG</picture>
+        <name>Сабо Timberland Classic Boat M169</name>
+        <description>Легкие ботинки с мягкой подкладкой удобно садятся и не натирают стопу. Протектор улучшает сцепление на пешеходных дорожках после дождя.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000070</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">39</param>
+      </offer>
+      <offer id="000071" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/кроссовки-soft-7-m170</url>
+        <price>9290.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/71.JPG</picture>
+        <name>Кроссовки Ecco Soft 7 M170</name>
+        <description>Кроссовки с широким основанием делают шаг более стабильным и предсказуемым. Пружинящая подошва смягчает нагрузку на пятку и свод.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000071</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000072" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/кеды-wallabee-m171</url>
+        <price>9580.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/72.JPG</picture>
+        <name>Кеды Clarks Wallabee M171</name>
+        <description>Эти лоферы подходят для ежедневной носки благодаря комфортной колодке. Подошва сохраняет grip на плитке и гладком полу.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000072</param>
+        <param name="Стиль">городской</param>
+        <param name="Технология">подошва FlexGrip</param>
+      </offer>
+      <offer id="000073" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/сланцы-superstar-m172</url>
+        <price>8970.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/73.JPG</picture>
+        <name>Сланцы Adidas Superstar M172</name>
+        <description>Кеды с текстильной lining быстро адаптируются к форме ноги. Гибкая подошва облегчает перекат и поддерживает естественную динамику стопы.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000073</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">42</param>
+      </offer>
+      <offer id="000074" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/лоферы-327-m173</url>
+        <price>10160.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/74.JPG</picture>
+        <name>Лоферы New Balance 327 M173</name>
+        <description>Ботинки с плотной шнуровкой надежно фиксируют стопу при длительных прогулках. Амортизация в пяточной зоне снижает усталость ног.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000074</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000075" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/ботинки-dunk-m174</url>
+        <price>12250.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/75.JPG</picture>
+        <name>Ботинки Nike Dunk M174</name>
+        <description>Пара туфель сочетает аккуратный вид и мягкий внутренний контакт со стопой. Подкладка дышит, поддерживая комфорт весь день.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000075</param>
+        <param name="Стиль">кэжуал</param>
+        <param name="Технология">влагостойкая обработка</param>
+      </offer>
+      <offer id="000076" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/сандалии-rs-x-m175</url>
+        <price>3490.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/76.JPG</picture>
+        <name>Сандалии Puma RS-X M175</name>
+        <description>Кроссовки на легкой платформе помогают держать темп без лишней нагрузки. Износостойкая подошва уверенно работает на разных покрытиях.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000076</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">45</param>
+      </offer>
+      <offer id="000077" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/мокасины-club-c-m176</url>
+        <price>3780.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/77.JPG</picture>
+        <name>Мокасины Reebok Club C M176</name>
+        <description>Ботильоны с анатомической формой бережно поддерживают ногу в движении. Рифленая подошва повышает сцепление и устойчивость шага.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000077</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000078" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/челси-gel-kayano-m177</url>
+        <price>5870.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/78.JPG</picture>
+        <name>Челси ASICS Gel-Kayano M177</name>
+        <description>Кеды рассчитаны на городской ритм: комфортная посадка, мягкая стелька, свободный перекат. Вентиляция внутри пары улучшает breathability.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000078</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000079" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/сникеры-dlites-m178</url>
+        <price>4360.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/79.JPG</picture>
+        <name>Сникеры Skechers D'Lites M178</name>
+        <description>Ботинки плотно сидят на ноге и сохраняют стабильность на неровной дороге. Подошва с глубоким рисунком обеспечивает надежный grip.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000079</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">37</param>
+      </offer>
+      <offer id="000080" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/сабо-authentic-m179</url>
+        <price>3750.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/80.JPG</picture>
+        <name>Сабо Vans Authentic M179</name>
+        <description>Лоферы с гибкой базой дарят мягкий шаг и удобство с первого дня. Подкладка минимизирует трение в области пятки.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000080</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000081" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/кроссовки-run-star-m180</url>
+        <price>4940.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/81.JPG</picture>
+        <name>Кроссовки Converse Run Star M180</name>
+        <description>Кроссовки с упругой промежуточной подошвой поддерживают комфорт при длительной ходьбе. Задник стабилизирует стопу и улучшает контроль движения.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000081</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000082" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/кеды-cityroam-m181</url>
+        <price>5230.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/82.JPG</picture>
+        <name>Кеды Timberland CityRoam M181</name>
+        <description>Пара полуботинок выполнена на практичной колодке для уверенной ежедневной посадки. Подошва цепкая и устойчивая к скольжению.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000082</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">40</param>
+      </offer>
+      <offer id="000083" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/сланцы-biom-m182</url>
+        <price>4620.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/83.JPG</picture>
+        <name>Сланцы Ecco Biom M182</name>
+        <description>Кеды с мягким кантом деликатно облегают ногу без давления. Амортизирующая стелька помогает снизить ударную нагрузку на стопу.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000083</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000084" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/лоферы-desert-m183</url>
+        <price>5810.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/84.JPG</picture>
+        <name>Лоферы Clarks Desert M183</name>
+        <description>Ботинки с теплой lining сохраняют комфорт в прохладную погоду. Протектор подошвы дает уверенное сцепление на влажной поверхности.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000084</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000085" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/ботинки-gazelle-m184</url>
+        <price>7900.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/85.JPG</picture>
+        <name>Ботинки Adidas Gazelle M184</name>
+        <description>Туфли с продуманной формой носка подходят для длительного рабочего дня. Гибкая подошва поддерживает естественное движение стопы.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000085</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">43</param>
+      </offer>
+      <offer id="000086" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/сандалии-990-m185</url>
+        <price>6390.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/86.JPG</picture>
+        <name>Сандалии New Balance 990 M185</name>
+        <description>Эта спортивная пара отличается легкостью и точной фиксацией пятки. Резиновая подошва с рельефом обеспечивает стабильный grip.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000086</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000087" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/мокасины-pegasus-m186</url>
+        <price>6680.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/87.JPG</picture>
+        <name>Мокасины Nike Pegasus M186</name>
+        <description>Лоферы удобно сидят благодаря мягкой колодке и эластичной подкладке. Шаг остается уверенным за счет нескользящей подошвы.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000087</param>
+        <param name="Стиль">городской</param>
+        <param name="Технология">подошва FlexGrip</param>
+      </offer>
+      <offer id="000088" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/челси-future-rider-m187</url>
+        <price>8770.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/88.JPG</picture>
+        <name>Челси Puma Future Rider M187</name>
+        <description>Кроссовки с дышащей конструкцией помогают стопе оставаться в комфорте в течение дня. Амортизация в пятке делает ход мягче.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000088</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">46</param>
+      </offer>
+      <offer id="000089" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/reebok/сникеры-nano-m188</url>
+        <price>7260.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/89.JPG</picture>
+        <name>Сникеры Reebok Nano M188</name>
+        <description>Ботинки для города получили прочную платформу и удобную поддержку ноги. Подошва с выраженным рисунком улучшает сцепление на асфальте.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">REEBOK-000089</param>
+        <param name="Сезон">лето</param>
+      </offer>
+      <offer id="000090" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/asics/сабо-novablast-m189</url>
+        <price>6650.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/90.JPG</picture>
+        <name>Сабо ASICS Novablast M189</name>
+        <description>Кеды на гибкой основе хорошо подходят для активной повседневной носки. Подкладка бережно контактирует со стопой и не перегревает ее.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">ASICS-000090</param>
+        <param name="Стиль">кэжуал</param>
+        <param name="Технология">влагостойкая обработка</param>
+      </offer>
+      <offer id="000091" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/skechers/кроссовки-arch-fit-m190</url>
+        <price>7840.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/91.JPG</picture>
+        <name>Кроссовки Skechers Arch Fit M190</name>
+        <description>Пара туфель с устойчивой колодкой обеспечивает аккуратную посадку без лишнего давления. Стелька добавляет мягкость при каждом шаге.</description>
+        <param name="Цвет">черный</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">SKECHERS-000091</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">38</param>
+      </offer>
+      <offer id="000092" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/vans/кеды-sk8-hi-m191</url>
+        <price>8130.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/92.JPG</picture>
+        <name>Кеды Vans Sk8-Hi M191</name>
+        <description>Кроссовки с усиленным мысом и пяткой дольше сохраняют форму. Упругая подошва снижает ударную нагрузку на стопу.</description>
+        <param name="Цвет">белый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">VANS-000092</param>
+        <param name="Сезон">весна-осень</param>
+      </offer>
+      <offer id="000093" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/converse/сланцы-one-star-m192</url>
+        <price>7520.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/93.JPG</picture>
+        <name>Сланцы Converse One Star M192</name>
+        <description>Ботильоны поддерживают ногу в области голеностопа и дарят уверенный шаг. Цепкий протектор помогает на скользких участках.</description>
+        <param name="Цвет">серый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">CONVERSE-000093</param>
+        <param name="Стиль">лайфстайл</param>
+        <param name="Технология">стелька Memory Foam</param>
+      </offer>
+      <offer id="000094" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/timberland/лоферы-seneca-bay-m193</url>
+        <price>8710.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/94.JPG</picture>
+        <name>Лоферы Timberland Seneca Bay M193</name>
+        <description>Легкие кеды с текстильной lining быстро адаптируются к форме стопы. Подошва работает гибко и плавно в зоне переката.</description>
+        <param name="Цвет">синий</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">TIMBERLAND-000094</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">41</param>
+      </offer>
+      <offer id="000095" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/ecco/ботинки-street-lite-m194</url>
+        <price>10800.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/95.JPG</picture>
+        <name>Ботинки Ecco Street Lite M194</name>
+        <description>Ботинки с анатомической стелькой равномерно распределяют нагрузку на ногу. Прочная подошва дает стабильный контакт с поверхностью.</description>
+        <param name="Цвет">бежевый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ECCO-000095</param>
+        <param name="Сезон">зима</param>
+      </offer>
+      <offer id="000096" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/clarks/сандалии-un-costa-m195</url>
+        <price>9290.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/96.JPG</picture>
+        <name>Сандалии Clarks Un Costa M195</name>
+        <description>Лоферы с дышащей подкладкой сохраняют комфорт даже при долгой носке в помещении. Резиновая подошва предотвращает скольжение.</description>
+        <param name="Цвет">коричневый</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">CLARKS-000096</param>
+        <param name="Стиль">повседневный</param>
+        <param name="Технология">амортизация AirSoft</param>
+      </offer>
+      <offer id="000097" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/adidas/мокасины-forum-m196</url>
+        <price>9580.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/97.JPG</picture>
+        <name>Мокасины Adidas Forum M196</name>
+        <description>Кроссовки рассчитаны на ежедневные маршруты: мягкая амортизация и надежная фиксация стопы. Вентиляция верха поддерживает свежесть внутри пары.</description>
+        <param name="Цвет">зеленый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">ADIDAS-000097</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">44</param>
+      </offer>
+      <offer id="000098" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/new-balance/челси-2002r-m197</url>
+        <price>11670.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/98.JPG</picture>
+        <name>Челси New Balance 2002R M197</name>
+        <description>Пара полуботинок сочетает удобную колодку и аккуратную поддержку пятки. Рельефная подошва обеспечивает уверенный grip в межсезонье.</description>
+        <param name="Цвет">красный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">NEWBALANCE-000098</param>
+        <param name="Сезон">демисезон</param>
+      </offer>
+      <offer id="000099" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/nike/сникеры-blazer-m198</url>
+        <price>10160.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/99.JPG</picture>
+        <name>Сникеры Nike Blazer M198</name>
+        <description>Кеды с упругой стелькой и мягким воротом подходят для активного дня. Гибкая подошва помогает стопе двигаться естественно.</description>
+        <param name="Цвет">графитовый</param>
+        <param name="Материал">натуральная кожа</param>
+        <param name="Артикул">NIKE-000099</param>
+        <param name="Стиль">спортивный</param>
+        <param name="Технология">усиленный задник</param>
+      </offer>
+      <offer id="000100" available="true">
+        <url>http://www.надежнаятехника.рф/catalog/obuv/puma/сабо-cali-m199</url>
+        <price>9550.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>41</categoryId>
+        <picture>http://89.123.45.678/catalog/photo/41/100.JPG</picture>
+        <name>Сабо Puma Cali M199</name>
+        <description>Ботинки завершают образ и при этом дают практичный комфорт на каждый день. Подкладка дышит, а цепкая подошва удерживает устойчивость шага.</description>
+        <param name="Цвет">молочный</param>
+        <param name="Материал">текстиль</param>
+        <param name="Артикул">PUMA-000100</param>
+        <param name="Пол">мужской</param>
+        <param name="Размер" unit="EU">36</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
