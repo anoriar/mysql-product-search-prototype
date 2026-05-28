@@ -22,29 +22,9 @@ Edit `.env` if you want custom port, passwords, or database name.
 docker compose up -d
 ```
 
-Check health:
-
-```bash
-docker compose ps
-```
-
-## 3) Apply migration
-
-```bash
-docker compose exec -T mysql mysql -uroot -p"${MYSQL_ROOT_PASSWORD}" "${MYSQL_DATABASE}" < migrations/001_create_ai_rec_products.sql
-```
-
-Note: command uses variables from your shell. Run `source .env` first if needed.
-
-## 4) Load products from YML
-
-```bash
-python3 scripts/load_yml_to_mysql.py --file data/products.yml
-```
-
 The loader reads MySQL connection settings from environment variables and also auto-loads `.env` from the project root.
 
-## Reset database
+## Reset database and load products
 
 Full reset (drop DB, recreate, apply migration, reload `products.yml`):
 
@@ -74,17 +54,3 @@ It computes:
   - parameter name matches exactly
   - parameter value matches `LIKE '%value%'`
 - final `score = text_score + param_score`
-
-## Useful commands
-
-Stop DB:
-
-```bash
-docker compose down
-```
-
-Stop DB and remove data volume:
-
-```bash
-docker compose down -v
-```
