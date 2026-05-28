@@ -6,28 +6,15 @@ from decimal import Decimal
 from pathlib import Path
 
 import mysql.connector
+from dotenv import load_dotenv
 
 
-def load_dotenv(dotenv_path: Path) -> None:
-    if not dotenv_path.exists():
-        return
-
-    for raw_line in dotenv_path.read_text(encoding="utf-8").splitlines():
-        line = raw_line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-
-        key, value = line.split("=", 1)
-        key = key.strip()
-        value = value.strip()
-
-        if not key:
-            continue
-
-        if value.startswith(("'", '"')) and value.endswith(("'", '"')):
-            value = value[1:-1]
-
-        os.environ.setdefault(key, value)
+def get_env_int(name: str, default: int) -> int:
+    raw_value = os.getenv(name, str(default))
+    try:
+        return int(raw_value)
+    except ValueError as exc:
+        raise ValueError(f"Environment variable {name} must be an integer.") from exc
 
 
 def to_int_price(raw_price: str) -> int:
@@ -141,7 +128,7 @@ def load_products(yml_path: str, db_config: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Load YML products into MySQL.")
     project_root = Path(__file__).resolve().parent.parent
-    load_dotenv(project_root / ".env")
+    load_dotenv(dotenv_path=project_root / ".env")
     parser.add_argument(
         "--file",
         default=str(project_root / "data" / "products.yml"),
@@ -151,7 +138,7 @@ def main() -> None:
 
     db_config = {
         "host": os.getenv("MYSQL_HOST", "127.0.0.1"),
-        "port": int(os.getenv("MYSQL_PORT", "3306")),
+        "port": get_env_int("MYSQL_PORT", 3306),
         "user": os.getenv("MYSQL_USER", "ai_user"),
         "password": os.getenv("MYSQL_PASSWORD", "ai_pass"),
         "database": os.getenv("MYSQL_DATABASE", "ai_rec_db"),

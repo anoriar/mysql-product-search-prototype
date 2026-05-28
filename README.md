@@ -22,7 +22,11 @@ Edit `.env` if you want custom port, passwords, or database name.
 docker compose up -d
 ```
 
-The loader reads MySQL connection settings from environment variables and also auto-loads `.env` from the project root.
+## 3) Install Python dependencies
+
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 ## Reset database and load products
 
