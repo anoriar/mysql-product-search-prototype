@@ -1,18 +1,26 @@
 # Пример входных данных:
 SET @q = 'Кеды Vans Sk8-Hi M191 Кроссовки с усиленным мысом и пяткой дольше сохраняют форму. Упругая подошва снижает ударную нагрузку на стопу.';
-SET @p1_name = 'Цвет';
-SET @p1_value = 'бел';
-SET @p2_name = 'Материал';
-SET @p2_value = 'кожа';
+# Сброс параметров на каждый запуск, чтобы не подтягивались старые значения из сессии.
+SET @p1_name = NULL;
+SET @p1_value = NULL;
+SET @p2_name = NULL;
+SET @p2_value = NULL;
 SET @p3_name = NULL;
 SET @p3_value = NULL;
+
+ SET @p1_name = 'Цвет';
+ SET @p1_value = 'белый';
+ SET @p2_name = 'Сезон';
+ SET @p2_value = 'весна-осень';
 #
 # Логика param_score:
 # +1 за каждый заданный параметр, если у товара есть запись в product_attributes,
 # где pa.name = param_name и pa.value LIKE CONCAT('%', param_value, '%').
 
 WITH requested_params AS (
-    SELECT @p1_name AS param_name, @p1_value AS param_value
+    SELECT
+        @p1_name AS param_name,
+        @p1_value AS param_value
     UNION ALL
     SELECT @p2_name, @p2_value
     UNION ALL
@@ -24,7 +32,7 @@ product_param_score AS (
         COALESCE(
             SUM(
                 CASE
-                    WHEN np.param_name IS NOT NULL AND EXISTS (
+                    WHEN EXISTS (
                         SELECT 1
                         FROM product_attributes pa
                         WHERE pa.offer_id = p.offer_id
@@ -52,12 +60,11 @@ SELECT
     p.name,
     p.description,
     pts.text_score,
-    pps.param_score,
-    (pts.text_score + pps.param_score) AS score
+    pps.param_score
 FROM products p
 JOIN product_param_score pps ON pps.offer_id = p.offer_id
 JOIN product_text_score pts ON pts.offer_id = p.offer_id
 WHERE pts.text_score > 0
    OR pps.param_score > 0
-ORDER BY score DESC, text_score DESC, p.name ASC
+ORDER BY pps.param_score DESC, pts.text_score DESC
 LIMIT 20;
