@@ -10,7 +10,7 @@ Each prototype lives in its own folder and includes:
 - `query/search_products_with_param_score.sql`
 
 Current prototype:
-- `prototypes/p1_current`
+- `prototypes/p1`
 
 ## 1) Configure environment
 
@@ -31,7 +31,7 @@ python3 -m pip install -r requirements.txt
 ## 3) Load prototype by code
 
 ```bash
-./scripts/load_prototype.sh p1_current
+./scripts/load_prototype.sh p1
 ```
 
 What this script does:
@@ -42,9 +42,9 @@ What this script does:
 
 ## SQL searches
 
-For prototype `p1_current`, run queries from:
-- `prototypes/p1_current/query/search_products.sql`
-- `prototypes/p1_current/query/search_products_with_param_score.sql`
+For prototype `p1`, run queries from:
+- `prototypes/p1/query/search_products.sql`
+- `prototypes/p1/query/search_products_with_param_score.sql`
 
 Main query logic:
 - `text_score` from `MATCH(name, description) AGAINST(@q IN NATURAL LANGUAGE MODE)`

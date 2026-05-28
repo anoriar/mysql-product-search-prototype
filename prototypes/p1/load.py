@@ -127,7 +127,7 @@ def load_products(yml_path: str, db_config: dict) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Load YML products into MySQL for p1_current prototype."
+        description="Load YML products into MySQL for p1 prototype."
     )
     project_root = Path(__file__).resolve().parents[2]
     load_dotenv(dotenv_path=project_root / ".env")

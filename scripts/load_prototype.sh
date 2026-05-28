@@ -3,7 +3,7 @@ set -euo pipefail
 
 if [ "$#" -ne 1 ]; then
   echo "Usage: $0 <prototype_code>"
-  echo "Example: $0 p1_current"
+  echo "Example: $0 p1"
   exit 1
 fi
 
