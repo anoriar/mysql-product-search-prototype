@@ -19,7 +19,7 @@ services:
       retries: 20
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./mysql/conf.d/custom.cnf:/etc/mysql/conf.d/custom.cnf:ro
+      - ${MYSQL_CONF_FILE:-./mysql/conf.d/custom.cnf}:/etc/mysql/conf.d/custom.cnf:ro
 
 volumes:
   mysql_data:

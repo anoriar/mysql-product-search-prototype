@@ -1,10 +1,16 @@
 # Mysql AI Rec Prototype
 
-Small local MySQL project with:
-- product catalog in `data/products.yml`
-- schema migration in `migrations/001_create_ai_rec_products.sql`
-- loader script `scripts/load_yml_to_mysql.py`
-- SQL search examples in `sql/`
+This repo contains MySQL search prototypes for product ranking experiments.
+
+Each prototype lives in its own folder and includes:
+- `my.cnf`
+- `migration.sql`
+- `load.py` (prototype-specific loading logic)
+- `query/search_products.sql`
+- `query/search_products_with_param_score.sql`
+
+Current prototype:
+- `prototypes/p1_current`
 
 ## 1) Configure environment
 
@@ -16,45 +22,31 @@ cp .env.example .env
 
 Edit `.env` if you want custom port, passwords, or database name.
 
-## 2) Start database
-
-```bash
-docker compose up -d
-```
-
-## 3) Install Python dependencies
+## 2) Install Python dependencies
 
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-## Reset database and load products
-
-Full reset (drop DB, recreate, apply migration, reload `products.yml`):
+## 3) Load prototype by code
 
 ```bash
-./scripts/reset.sh
+./scripts/load_prototype.sh p1_current
 ```
 
-`reset.sh` also reads `.env`, so database name and credentials stay in one place.
+What this script does:
+- starts MySQL with prototype-specific `my.cnf`
+- drops and recreates database from `.env`
+- applies prototype migration
+- loads `data/products.yml` via prototype `load.py`
 
 ## SQL searches
 
-### Text search
+For prototype `p1_current`, run queries from:
+- `prototypes/p1_current/query/search_products.sql`
+- `prototypes/p1_current/query/search_products_with_param_score.sql`
 
-See `sql/search_products.sql`.
-
-This file contains examples of:
-- fulltext `MATCH(name, description) AGAINST(...)`
-- weighted score between name and description
-
-### Text + parameters score
-
-See `sql/search_products_with_param_score.sql`.
-
-It computes:
-- `text_score` using `MATCH ... AGAINST(@q IN NATURAL LANGUAGE MODE)`
-- `param_score` as `+1` for each requested parameter where:
-  - parameter name matches exactly
-  - parameter value matches `LIKE '%value%'`
-- final `score = text_score + param_score`
+Main query logic:
+- `text_score` from `MATCH(name, description) AGAINST(@q IN NATURAL LANGUAGE MODE)`
+- `param_score` +1 per matched attribute pair (`name` exact + `value LIKE '%...%'`)
+- ranking by `param_score DESC`, then `text_score DESC`

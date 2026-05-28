@@ -83,7 +83,7 @@ def load_products(yml_path: str, db_config: dict) -> None:
     conn = mysql.connector.connect(**db_config)
     cursor = conn.cursor()
 
-    query = """
+    insert_products_query = """
     INSERT INTO products (
         offer_id, url, name, description, price, currencyId, categoryId, picture
     )
@@ -109,7 +109,7 @@ def load_products(yml_path: str, db_config: dict) -> None:
         f"DELETE FROM product_attributes WHERE offer_id IN ({placeholders})"
     )
 
-    cursor.executemany(query, products)
+    cursor.executemany(insert_products_query, products)
     if offer_ids:
         cursor.execute(delete_attributes_query, offer_ids)
     if attributes:
@@ -126,8 +126,10 @@ def load_products(yml_path: str, db_config: dict) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Load YML products into MySQL.")
-    project_root = Path(__file__).resolve().parent.parent
+    parser = argparse.ArgumentParser(
+        description="Load YML products into MySQL for p1_current prototype."
+    )
+    project_root = Path(__file__).resolve().parents[2]
     load_dotenv(dotenv_path=project_root / ".env")
     parser.add_argument(
         "--file",

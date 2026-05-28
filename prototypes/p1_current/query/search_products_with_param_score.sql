@@ -1,6 +1,5 @@
-# Пример входных данных:
+# Example input:
 SET @q = 'Кеды Vans Sk8-Hi M191 Кроссовки с усиленным мысом и пяткой дольше сохраняют форму. Упругая подошва снижает ударную нагрузку на стопу.';
-# Сброс параметров на каждый запуск, чтобы не подтягивались старые значения из сессии.
 SET @p1_name = NULL;
 SET @p1_value = NULL;
 SET @p2_name = NULL;
@@ -8,19 +7,13 @@ SET @p2_value = NULL;
 SET @p3_name = NULL;
 SET @p3_value = NULL;
 
- SET @p1_name = 'Цвет';
- SET @p1_value = 'белый';
- SET @p2_name = 'Сезон';
- SET @p2_value = 'весна-осень';
-#
-# Логика param_score:
-# +1 за каждый заданный параметр, если у товара есть запись в product_attributes,
-# где pa.name = param_name и pa.value LIKE CONCAT('%', param_value, '%').
+# SET @p1_name = 'Цвет';
+# SET @p1_value = 'белый';
+# SET @p2_name = 'Сезон';
+# SET @p2_value = 'весна-осень';
 
 WITH requested_params AS (
-    SELECT
-        @p1_name AS param_name,
-        @p1_value AS param_value
+    SELECT @p1_name AS param_name, @p1_value AS param_value
     UNION ALL
     SELECT @p2_name, @p2_value
     UNION ALL
