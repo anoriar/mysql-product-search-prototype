@@ -6,8 +6,8 @@ Each prototype lives in its own folder and includes:
 - `my.cnf`
 - `migration.sql`
 - `load.py` (prototype-specific loading logic)
-- `query/search_products.sql`
-- `query/search_products_with_param_score.sql`
+- `retrieval/search_products.sql`
+- `retrieval/search_products_with_param_score.sql`
 
 Prototypes:
 - `prototypes/p1` — отдельная таблица `product_attributes`, FULLTEXT по `name, description`
@@ -46,8 +46,8 @@ What this script does:
 ## SQL searches
 
 For prototype `p1`, run queries from:
-- `prototypes/p1/query/search_products.sql`
-- `prototypes/p1/query/search_products_with_param_score.sql`
+- `prototypes/p1/retrieval/search_products.sql`
+- `prototypes/p1/retrieval/search_products_with_param_score.sql`
 
 Main query logic (p1):
 - `text_score` from `MATCH(name, description) AGAINST(@q IN NATURAL LANGUAGE MODE)`
@@ -55,8 +55,8 @@ Main query logic (p1):
 - ranking by `param_score DESC`, then `text_score DESC`
 
 For prototype `p2`, run queries from:
-- `prototypes/p2/query/search_products.sql`
-- `prototypes/p2/query/search_products_with_param_score.sql`
+- `prototypes/p2/retrieval/search_products.sql`
+- `prototypes/p2/retrieval/search_products_with_param_score.sql`
 
 Main query logic (p2):
 - `text_score` from `MATCH(name, description, attributes) AGAINST(@q IN NATURAL LANGUAGE MODE)`

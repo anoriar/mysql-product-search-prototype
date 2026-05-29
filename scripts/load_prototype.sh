@@ -17,9 +17,7 @@ ENV_FILE="${PROJECT_ROOT}/.env"
 MY_CNF_FILE="${PROTOTYPE_DIR}/my.cnf"
 MIGRATION_FILE="${PROTOTYPE_DIR}/migration.sql"
 LOAD_SCRIPT="${PROTOTYPE_DIR}/load.py"
-QUERY_DIR="${PROTOTYPE_DIR}/query"
-QUERY_TEXT_FILE="${QUERY_DIR}/search_products.sql"
-QUERY_PARAM_FILE="${QUERY_DIR}/search_products_with_param_score.sql"
+RETRIEVAL_DIR="${PROTOTYPE_DIR}/retrieval"
 YML_FILE="${PROJECT_ROOT}/data/products.yml"
 
 if [ ! -d "${PROTOTYPE_DIR}" ]; then
@@ -28,7 +26,7 @@ if [ ! -d "${PROTOTYPE_DIR}" ]; then
   exit 1
 fi
 
-for required_file in "${MY_CNF_FILE}" "${MIGRATION_FILE}" "${LOAD_SCRIPT}" "${QUERY_TEXT_FILE}" "${QUERY_PARAM_FILE}"; do
+for required_file in "${MY_CNF_FILE}" "${MIGRATION_FILE}" "${LOAD_SCRIPT}"""; do
   if [ ! -f "${required_file}" ]; then
     echo "Missing required file for ${PROTOTYPE_CODE}: ${required_file}"
     exit 1
@@ -92,6 +90,3 @@ MYSQL_DATABASE="${DB_NAME}" \
 "${PYTHON_BIN}" "${LOAD_SCRIPT}" --file "${YML_FILE}"
 
 echo "Done. Prototype ${PROTOTYPE_CODE} is ready."
-echo "Query files:"
-echo "- ${QUERY_TEXT_FILE}"
-echo "- ${QUERY_PARAM_FILE}"
