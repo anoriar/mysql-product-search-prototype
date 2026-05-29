@@ -27,8 +27,9 @@ SYSTEM_PROMPT = """\
    - если параметры найдены — queryWithParams с массивом {value, weight}.
 
 6. Получив результат tool, верни JSON-массив рекомендаций. Каждый элемент:
-   {"id": "...", "name": "...", "description": "...", "score": <число>}
-   Используй id из поля offer_id результата tool. score — релевантность из MATCH.
+   {"id": "...", "name": "...", "description": "...", "attributes": [...], "score": <число>}
+   Используй id из поля offer_id результата tool. attributes — список значений из tool. \
+score — релевантность из MATCH.
    Верни только JSON, без пояснений."""
 
 TOOLS = [
@@ -150,7 +151,8 @@ def rows_to_products(rows: list[tuple[Any, ...]]) -> list[dict[str, Any]]:
             "offer_id": row[0],
             "name": row[1],
             "description": row[2],
-            "score": float(row[3]) if row[3] is not None else 0.0,
+            "attributes": parse_attributes(row[3]),
+            "score": float(row[4]) if row[4] is not None else 0.0,
         }
         for row in rows
     ]
@@ -171,9 +173,9 @@ def default_query(
         params.append(exclude_offer_id)
 
     sql = f"""
-        SELECT offer_id, name, description, score
+        SELECT offer_id, name, description, attributes, score
         FROM (
-            SELECT offer_id, name, description,
+            SELECT offer_id, name, description, attributes,
                 MATCH(name, description, attributes) AGAINST(%s IN NATURAL LANGUAGE MODE) AS score
             FROM products
             {where_clause}
@@ -209,9 +211,9 @@ def query_with_params(
         query_params.append(exclude_offer_id)
 
     sql = f"""
-        SELECT offer_id, name, description, score
+        SELECT offer_id, name, description, attributes, score
         FROM (
-            SELECT offer_id, name, description, ({score_expr}) AS score
+            SELECT offer_id, name, description, attributes, ({score_expr}) AS score
             FROM products
             {where_clause}
         ) ranked
@@ -263,11 +265,18 @@ def extract_json_array(text: str) -> list[dict[str, Any]]:
 def normalize_recommendations(products: list[dict[str, Any]]) -> list[dict[str, Any]]:
     normalized = []
     for product in products:
+        raw_attributes = product.get("attributes", [])
+        if isinstance(raw_attributes, str):
+            attributes = parse_attributes(raw_attributes)
+        else:
+            attributes = list(raw_attributes)
+
         normalized.append(
             {
                 "id": product.get("id") or product.get("offer_id"),
                 "name": product.get("name", ""),
                 "description": product.get("description", ""),
+                "attributes": attributes,
                 "score": float(product.get("score", 0)),
             }
         )
@@ -349,6 +358,7 @@ def recommend_similar_products(
             {"role": "user", "content": user_message},
         ]
         tool_query: dict[str, Any] = {}
+        tool_products: list[dict[str, Any]] = []
 
         for _ in range(5):
             response = client.chat.completions.create(
@@ -372,6 +382,7 @@ def recommend_similar_products(
                         arguments,
                         exclude_offer_id=product["offer_id"],
                     )
+                    tool_products = tool_result
                     messages.append(
                         {
                             "role": "tool",
@@ -382,8 +393,8 @@ def recommend_similar_products(
                 continue
 
             if message.content:
-                products = extract_json_array(message.content)
-                return build_result(product, tool_query, products)
+                extract_json_array(message.content)
+                return build_result(product, tool_query, tool_products)
 
             raise ValueError("LLM returned empty response.")
 
